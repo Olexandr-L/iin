@@ -11,11 +11,30 @@
 <body>
 
     <div class="container">
-        <input class="btn" type="button" value="GENERATE" onclick="generate()">
-        <div class="text">Code: <span id="code"></span></div>
-        <div class="text">Gender: <span id="gender"></span></div>
-        <div class="text">Age: <span id="age"></span></div>
-        <div class="text">Date of birth: <span id="birthday"></span></div>
+        <div class="block">
+            <input class="btn" type="button" value="GENERATE" onclick="generate()">
+        </div>
+        <div class="block">
+            <table class="table">
+                <tr class="field">
+                    <td class="key">Code:</td>
+                    <td class="value" id="code"></td>
+                </tr>
+                <tr class="field">
+                    <td class="key">Gender:</td>
+                    <td class="value" id="gender"></td>
+                </tr>
+                <tr class="field">
+                    <td class="key">Age:</td>
+                    <td class="value" id="age"></td>
+                </tr>
+                <tr class="field">
+                    <td class="key">Date of birth:</td>
+                    <td class="value" id="birthday"></td>
+                </tr>
+            </table>
+        </div>
+
 
     </div>
 

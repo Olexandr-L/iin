@@ -37,5 +37,4 @@ function generate() {
     document.getElementById('birthday').innerText = birthday.toDateString();
 }
 
-
 generate();
