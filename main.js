@@ -19,7 +19,6 @@ function generate() {
     ) % 11) % 10);
     rezult = rezult + kontr;
 
-    console.log(rezult);
+    document.getElementById('code').innerText = rezult;
 
-    return rezult;
 }
