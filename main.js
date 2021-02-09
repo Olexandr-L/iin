@@ -15,7 +15,7 @@ function calculateAge(birthday) {
 }
 
 function generate() {
-    let birth = zeros(String(Math.floor((Math.random() * 16601)) + 20000), 5);
+    let birth = zeros(String(Math.floor((Math.random() * 16601)) + 25000), 5);
     let poryadk = zeros(String(Math.floor((Math.random() * 9000))), 4);
     let result = birth + poryadk;
     let kontr = String(((
